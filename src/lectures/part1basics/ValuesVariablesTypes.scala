@@ -4,6 +4,7 @@ object ValuesVariablesTypes extends App {
   val x = 42
   println(x)
 
+  // Immutable
   val aString: String = "Hello"
   val anotherString = "Goodbye"
 
@@ -14,5 +15,7 @@ object ValuesVariablesTypes extends App {
   val aLong: Long = 91240912409093113L
   val aFloat: Float = 2.0f
   val aDouble: Double = 3.14
-  
+
+  var aVariable: Int = 4
+  aVariable = 5 // Side effect
 }
